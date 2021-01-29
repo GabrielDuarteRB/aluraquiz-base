@@ -8,13 +8,18 @@ import Button from '../src/components/Button';
  
 export default function Resultado({nome, acertou, setScreenState}) {
 
+    const [acertos, setAcertos] = useState(0)
     const screenStates = {
         LOADING: 'LOADING',
         QUIZ: 'QUIZ',
         RESULT: 'RESULT',
       };
 
-    var acertos = acertou.filter(x => x).length
+    acertou.map(() => {
+        if(acertou === true){
+            setAcertos(acerto + 1)
+        }
+    })
 
     const recomecar = () => {
         setScreenState(screenStates.QUIZ)
