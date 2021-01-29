@@ -17,7 +17,7 @@ export default function Resultado({nome, acertou, setScreenState}) {
 
     acertou.map(() => {
         if(acertou === true){
-            setAcertos(acerto + 1)
+            setAcertos(acertos + 1)
         }
     })
 
