@@ -19,13 +19,19 @@ const Widget = styled.div`
     font-size: 14px;
     font-weight: 400;
     line-height: 1;
+
+    &[data-status="SUCCESS"] {
+    color: ${({ theme }) => theme.colors.success};
+    }
+    &[data-status="ERROR"] {
+    color: ${({ theme }) => theme.colors.wrong};
+    }
   }
 `;
 
 Widget.Header = styled.header`
   display: flex;
   justify-content: flex-start;
-  align-items: center;
   padding: 18px 32px;
   background-color: ${({ theme }) => theme.colors.primary};
   
@@ -45,6 +51,38 @@ Widget.Content = styled.div`
   ul {
     list-style: none;
     padding: 0;
+  }
+
+  label {
+  &[data-selected=true] {
+    background-color: ${({ theme }) => theme.colors.primary};
+
+  &[data-status="SUCCESS"] {
+    background-color: ${({ theme }) => theme.colors.success};
+  }
+  &[data-status="ERROR"] {
+    background-color: ${({ theme }) => theme.colors.wrong};
+  }
+  }}
+`;
+
+Widget.Topic = styled.a`
+  outline: 0;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.contrastText};
+  background-color: ${({ theme }) => `${theme.colors.secondary}`};
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border-radius: ${({ theme }) => theme.borderRadius};
+  transition: .3s;
+  display: block;
+  
+  
+
+  &:hover,
+  &:focus {
+    opacity: .5;
   }
 `;
 

@@ -4,30 +4,68 @@
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "image": "https://media0.giphy.com/media/3o6UBl2bEuyYH9K9l6/giphy.gif",
+        "title": "Qual alternativa tem as mesmas quantidades de bola de ouro?",
         "description": "Essa é pra aquecer",
-        "answer": 2,
+        "answer": 1,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Lionel Messi e Cristiano Ronaldo",
+          "Johan Cruijff e Michel Platini",
+          "Ronaldo e Ronaldinho",
+          "Luís Figo e Iniesta"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
+        "image": "https://3.bp.blogspot.com/-uR3p9qDXBus/U6Goxa68gbI/AAAAAAAAJKI/2Z5QMdtuCPc/s1600/Neymar+Chora+Copa+do+Mundo+gif.gif",
+        "title": "Qual lugar não sediou uma copa do mundo",
         "description": "Faz tempo em haha",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Portugal",
+           "Chile",
+           "Suiça",
+           "Africa do Sul"
+        ]
+      },
+      {
+        "image": "https://i.pinimg.com/originals/42/50/27/425027d824305fd320f251578020d93e.gif",
+        "title": "Quando o Messi ganhou sua primeira bola de ouro",
+        "description": "O anão é brabo 😬",
+        "answer": 3,
+        "alternatives": [
+           "2008",
+           "2010",
+           "2011",
+           "2009"
+        ]
+      },
+      {
+        "image": "https://i.makeagif.com/media/5-15-2016/JN4HAb.gif",
+        "title": "De quem é o estadio do Dragão",
+        "description": "Essa é difícil haha",
+        "answer": 0,
+        "alternatives": [
+           "Porto",
+           "Liverpool",
+           "Borussia Dortmund",
+           "Guangzhou Evergrande"
+        ]
+      },
+      {
+        "image": "https://i.makeagif.com/media/5-16-2015/iDz-a_.gif",
+        "title": "Qual time não tem mundial",
+        "description": "Não tem palmeiras na lista haha",
+        "answer": 2,
+        "alternatives": [
+           "Estrela Vermelha",
+           "Peñarol",
+           "Benfica",
+           "Ajax"
         ]
       }
     ],
     "external": [
-      ""
+      "https://media1.giphy.com/media/5UqQOhnfQbg4IG0utP/giphy.gif"
     ],
     "theme": {
       "colors": {
